@@ -1,0 +1,16 @@
+.link_box{
+    background: #3C3D37;
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    height: 150px;
+    width: 48%;
+    place-content: center;
+    place-items: center;
+    transition: all 0.5s ease;
+
+    &:hover{
+        background: #F99522;
+    }
+}

@@ -1,0 +1,36 @@
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px 5%;
+    border: 1px solid #aaa;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+
+    &:hover{
+        border: 1px solid #F99522;
+        background: #373A40;
+    }
+    .card_edit{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        
+        .card_edit_trash{
+        transition: all 0.5s ease;
+          &:hover{
+            color: #FF0000;
+            
+          }
+        }
+        .card_edit_edit{
+            transition: all 0.5s ease;
+            &:hover{
+              color: #06D001;
+              
+            }
+        }
+    }
+    
+}
