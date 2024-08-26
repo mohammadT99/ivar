@@ -23,10 +23,8 @@ export const CreateUserAction = async (formdata: FormData) => {
     return { success: true };
   } catch (error) {
     console.log('CreateUsreAction', error);
-    return error
   }
-};
-
+};  
 export const CheckUserEmail = async (formdata: FormData) => {
   try {
     const { email } = Object.fromEntries(formdata);

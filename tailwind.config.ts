@@ -28,10 +28,7 @@ const config: Config = {
             DEFAULT:"#0D5327" ,
             foreground:"#020204" ,
           } ,
-          white:{
-            DEFAULT:"#aaa",
-            foreground:"#020204" ,
-          }
+       
         }
 
       }
