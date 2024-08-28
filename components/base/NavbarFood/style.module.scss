@@ -1,0 +1,14 @@
+.navbar_food{
+    outline: none;
+    padding: 8px 20px;
+    border-radius: 10px;
+    transition: all 0.2s ease;
+    &:hover{
+        padding: 7px 20px;
+        background: #1F100D;
+        border-bottom: 1px solid #F99522;
+        
+
+    }
+
+}
